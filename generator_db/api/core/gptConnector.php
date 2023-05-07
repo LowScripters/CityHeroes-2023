@@ -30,18 +30,16 @@ class GPTConnector{
         // Закройте сеанс cURL
         curl_close($ch);
 
-        $answer = json_decode($result,true)["choices"][0]["text"];
-        if($answer == "" || $answer == "null"){
-            return GPTConnector::browseAnswer($module, $color);
-        }
-        else{
-            return json_decode($result,true)["choices"][0]["text"];
-        }
+        // $answer = json_decode($result,true)["choices"][0]["text"];
+        // if($answer == "" || $answer == "null"){
+        //     return GPTConnector::browseAnswer($module, $color);
+        // }
+        // else{
+        //     return json_decode($result,true)["choices"][0]["text"];
+        // }
         // Выведите ответ на экран
-        //return json_decode($result,true)["choices"][0]["text"];
+        return json_decode($result,true)["choices"][0]["text"];
         //return json_decode($result, true)["choices"][0]["text"];
     }
 }
-
-
 
