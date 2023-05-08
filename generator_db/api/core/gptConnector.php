@@ -5,7 +5,7 @@ class GPTConnector{
         // Установите данные для отправки запроса
         $data = array(
             'model' => 'text-davinci-003',
-            'prompt' => "Сгенерируй дизайн $module с использованием цвета $color css в JSON формате",
+            'prompt' => "Сгенерируй дизайн $module с использованием цвета $color css в JSON формате. Любой текст должен быть светлее данного оттенка.",
             'temperature' => 0.5,
             'max_tokens' => 3000
         );
