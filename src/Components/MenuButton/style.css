@@ -1,0 +1,18 @@
+.MenuButton{
+    height: 40px;
+    outline: none;
+    width: auto;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 0 10px 0; 
+    background: transparent;
+    border: 3px solid #425f83;
+    font-size: 18px;
+    transition:  all 0.2s;
+}
+.MenuButton:hover{
+    border: 3px solid #aebfc7;
+    background: #aebfc7;
+    color: #ebebeb;
+}

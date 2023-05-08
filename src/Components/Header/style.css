@@ -1,0 +1,16 @@
+.Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 32px 0;
+}
+.LogInContaner{
+    display: flex;
+}
+.LogInContaner .SignUpContainer{
+    margin: 0 8px 0 0;
+}
+.Logo img{
+    width: 200px;
+}

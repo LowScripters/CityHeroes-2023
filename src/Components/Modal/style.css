@@ -1,0 +1,67 @@
+.ModalWrapper{
+    display: flex;
+    position: fixed;
+    top: 5vh;
+    left: calc(50vw - 550px/2);
+    min-width: 550px;
+    height: auto;
+    min-height: 150px;
+    background: #faebd7;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    z-index: 99;
+}
+.ModalWrapper .Button{
+    width: 100%;
+}
+.ModalWrapper .SelectContainerDrop{
+    width: 100%;
+}
+.ModalWrapper textarea{
+    resize: none;
+    min-height: 150px;
+    margin: 0 0 8px 0;
+    border-radius: 10px;
+    border: 3px solid #425f83;
+    outline: none;
+    transition: 0.2s all;
+    padding: 5px 0 0 5px;
+    background: transparent;
+}
+.ModalWrapper textarea:focus{
+    border: 3px solid #aebfc7;
+}
+.ModalContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ModalTitle{
+    margin: 0 0 5px 0;
+}
+.ModalContent{
+    display: flex;
+    flex-direction: column;
+}
+.ModalCross{
+    cursor: pointer;
+    color: rgb(42, 44, 43);
+    font-size: 28px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.modal-overlay{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}

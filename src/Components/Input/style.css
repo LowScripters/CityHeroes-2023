@@ -1,0 +1,16 @@
+/* .InputContainer{
+    min-width: 400px;
+    width: 100%;
+    margin: 10px 0 25px 0;
+    position: relative;
+}
+.InputContainer input{
+    position: relative;
+    outline: none;
+    background: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #425f83;
+    transition:  all 0.2s;
+    z-index: 2;
+} */

@@ -1,0 +1,111 @@
+.Cards,
+.CardContainer,
+.CardList{ 
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Cards{
+  flex-direction: column;
+}
+.Cards__item,
+.CardList__item,
+.CardContainer__item{
+  width: 26%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 150px;
+  max-width: 400px;
+  min-width: 200px;
+  margin: 0 0 16px 0;
+  padding: 5px;
+  border: 1px solid #000;
+}
+.CardContainer__item img{
+  width: 22vw;
+}
+.Cards__item{
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 200px;
+  width: 100%;
+  max-width: 950px;
+}
+.CardList__item{
+  min-height: 300px;
+  max-width: 250px;
+  min-width: 200px;
+}
+.infoBlock,
+.infoContainer,
+.textContainer{
+  max-width: 800px;
+}
+.NavList,
+.ListContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+}
+.NavList__List{
+  margin: 8px 0 8px 0;
+  padding: 0 0 0 30px;
+}
+.ListContainer__List{
+  margin: 8px 0 0 0;
+  padding: 0 0 0 20px;
+
+}
+.ListContainer__List li{
+  margin: 0 0 8px 0;
+}
+.ListContainer h3 {
+  text-align: left;
+}
+
+.slick-slider{
+  margin: 16px 0 16px 24px;
+  height: 50px;
+  max-width: 400px;
+  width: 60vw;
+}
+.slick-list h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.infoContainer p{
+  margin: 8px 0 16px 0;
+}
+.infoBlockWrapper{
+  display: flex;
+  max-width: 900px;
+  align-items: flex-start;
+}
+.infoBlockWrapper p {
+  margin: 8px 0 0 0;
+}
+.ImageBlock {
+  position: relative;
+  width: 80%;
+}
+.ImageBlock div{
+  position: absolute;
+  max-width: 200px;
+}
+
+
+@media only screen and (max-width: 568px) {
+  .CardList__item,
+  .CardContainer{
+    /* flex-direction: column; */
+    align-items: center;
+  }
+}
