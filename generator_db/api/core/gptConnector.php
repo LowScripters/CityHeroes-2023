@@ -1,5 +1,5 @@
 <?php
-define("API_KEY", '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');
+define("API_KEY", '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');
 class GPTConnector{
     public static function browseAnswer($module, $color){
         // Установите данные для отправки запроса
